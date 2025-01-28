@@ -11,7 +11,8 @@ Our unified interface brings these essential business tools together, allowing s
 What you're seeing here is the conglomeration of all the repositories that make up Vector's financial platform. The platform consists of the following components:
 
 - [lead-management-platform](https://github.com/VectorEngineering/vector-lead-management): Private repository containing our core financial platform and business management tools.
-- [lead-contract-management-platform](https://github.com/VectorEngineering/vector-contract-management): Contract lifecycle management and document processing system.
+- [lead-contract-management-platform](https://github.com/VectorEngineering/vector-contract-management): Private repository for contract lifecycle management and document processing.
+- [email-verification-service](https://github.com/VectorEngineering/email-verification-service): Private service for email verification and validation.
 - [lead-sourcing-platform](https://github.com/VectorEngineering/vector-workflow-manager): Workflow management system for lead generation and customer acquisition.
 - [lead-scraper-service](https://github.com/VectorEngineering/vector-leads-scraper): Intelligent lead sourcing and data collection service.
 - [resumable-upload-service](https://github.com/VectorEngineering/resumable-upload-service): Reliable file upload service for handling financial documents and data.
@@ -22,10 +23,14 @@ We welcome contributions from the community! Whether you're fixing a bug, improv
 
 ### Getting Started
 
-1. Most of our repositories are public and open for contributions, except for the `lead-management-platform` which is private for security reasons.
+1. Most of our repositories are public and open for contributions. The following repositories are private for security reasons:
+   - `lead-management-platform`
+   - `lead-contract-management-platform`
+   - `email-verification-service`
 2. Choose the component you'd like to contribute to based on your interests:
    - Lead sourcing and workflow management
    - Contract lifecycle management
+   - Email verification and validation
    - Data scraping and processing
    - File upload and document handling
 

@@ -2,7 +2,7 @@
 
 # Update all submodules except the server
 git submodule foreach '
-    if [ "$path" != "lead-management-platform" ]; then
+    if [ "$path" != "lead-management-platform" ] || [ "$path" != "lead-contract-management-platform" ] || [ "$path" != "email-verification-service" ]; then
         git fetch
         git checkout origin/main
     else

@@ -13,3 +13,6 @@
 [submodule "lead-contract-management-platform"]
 	path = lead-contract-management-platform
 	url = https://github.com/plate-plus/potion.git
+[submodule "email-verification-service"]
+	path = email-verification-service
+	url = git@github.com:VectorEngineering/vector-email-verification-service.git
