@@ -8,37 +8,63 @@ Vector is a comprehensive financial services platform designed to empower small 
 
 Our unified interface brings these essential business tools together, allowing small business owners to manage their operations efficiently without juggling multiple disconnected solutions.
 
-What you're seeing here is the conglomeration of all the repositories that make up the entire PearAI project. This is only the beginning, and the list shall keep expanding. For details, visit each repository individually:
+What you're seeing here is the conglomeration of all the repositories that make up Vector's financial platform. The platform consists of the following components:
 
-- [pearai-app](https://github.com/trypear/pearai-app): this is the VSCode fork part of PearAI and the outer directory of the project. It contains the bulk of the editor functionalities.
-- [pearai-submodule](https://github.com/trypear/pearai-submodule): this is the Continue fork part of PearAI and is a submodule of `pearai-app`. It contains the bulk of the AI chat functionalities.
-- [pear-landing-page](https://github.com/trypear/pear-landing-page): this is the landing page of PearAI.
-- [pearai-documentation](https://github.com/trypear/pearai-documentation): this is the [documentation page](https://trypear.ai/docs) of PearAI and is linked to from the landing page.
-- [pearai-server](https://github.com/trypear/pearai-server): this is the server of PearAI which is semi-private to maintain security. The use of PearAI server is optional, and serves as a way to provide convenience for users who do not wish to use their own API keys.
-- [pearai-server-issues-public](https://github.com/trypear/pearai-server-issues-public): this is where all the issues are listed for the PearAI server.
+- [lead-management-platform](https://github.com/VectorEngineering/vector-lead-management): Private repository containing our core financial platform and business management tools.
+- [lead-contract-management-platform](https://github.com/VectorEngineering/vector-contract-management): Contract lifecycle management and document processing system.
+- [lead-sourcing-platform](https://github.com/VectorEngineering/vector-workflow-manager): Workflow management system for lead generation and customer acquisition.
+- [lead-scraper-service](https://github.com/VectorEngineering/vector-leads-scraper): Intelligent lead sourcing and data collection service.
+- [resumable-upload-service](https://github.com/VectorEngineering/resumable-upload-service): Reliable file upload service for handling financial documents and data.
 
 ## Contributing
 
-We welcome contributions from the community! Whether you're fixing a bug, improving the documentation, or adding a new feature, we appreciate your help in making PearAI better. There is a lot of context involved and we understand it can be overwhelming when first trying to join the project. Here is a quick summary of key information and how we currently work together:
+We welcome contributions from the community! Whether you're fixing a bug, improving the documentation, or adding a new feature, we appreciate your help in making Vector's financial platform better. Here's how you can contribute:
 
-- Pan and 
- conduct "Quests", which are 1-3 weeks sprints. We will pick out the current highest priority issues for these quests, ping everyone in our [Discord](<[url](https://discord.gg/7QMraJUsQt)>), and ask for applications to participate in them. The chosen people will help finish the tasks alongside us, participating in calls and working together. If help is needed, we may add more people to the quest. You can see the current open quests [here](https://github.com/orgs/trypear/projects?query=is%3Aopen).
-- Outside of dedicated Quests, we also have a bunch of issues which are free to tackle (see the issues tab on individual repos). Make sure to leave a comment indicating you're working on it (check for existing comments also). You can raise a PR anytime and we usually review them pretty quickly.
-- We have a lot on our plate so it's easy for us to miss something. The best way to get our attention is to ping us directly in our Discord server.
+### Getting Started
 
-**Please review the `CONTRIBUTING.md`/`README.md` in the repositories you'd like to participate in.**
+1. Most of our repositories are public and open for contributions, except for the `lead-management-platform` which is private for security reasons.
+2. Choose the component you'd like to contribute to based on your interests:
+   - Lead sourcing and workflow management
+   - Contract lifecycle management
+   - Data scraping and processing
+   - File upload and document handling
 
-Curious about our stack?
+### Development Process
 
-- PearAI is in TypeScript/Electron.js
-- PearAI landing page is Next.js/React with Supabase auth (TailwindCSS + Shadcn)
-- PearAI backend is a Python FastAPI server with Supabase database
-- Logging/Telemetry is done with Axiom
+1. Fork the repository you want to contribute to
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to your branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+### Guidelines
+
+- Follow the existing code style and conventions
+- Write clear commit messages
+- Add tests for new features
+- Update documentation as needed
+- Ensure all tests pass before submitting PRs
+
+**Please review the `CONTRIBUTING.md` in the specific repository you'd like to contribute to for detailed guidelines.**
+
+## Tech Stack
+
+Our platform is built with modern technologies:
+
+- Backend: Python FastAPI for microservices
+- Frontend: React with TypeScript
+- Database: PostgreSQL with Supabase
+- Infrastructure: Docker and Kubernetes
+- CI/CD: GitHub Actions
+- Monitoring: Prometheus and Grafana
 
 ## Contact
 
-For any questions or issues, feel free to open an issue, or you can also reach out to us directly in the [PearAI Discord](https://discord.gg/7QMraJUsQt), or email us at [pearai@trypear.ai](mailto:pearai@trypear.ai).
+For any questions or issues:
+- Open an issue in the relevant repository
+- Email us at [contact@vector.engineering](mailto:contact@vector.engineering)
+- Join our [community discussions](https://github.com/VectorEngineering/discussions)
 
 ## FAQ
 
-Checkout our [FAQ](https://trypear.ai/faq) on the website.
+Visit our [documentation](https://docs.vector.engineering) for frequently asked questions and detailed guides.

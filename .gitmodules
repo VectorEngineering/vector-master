@@ -1,0 +1,15 @@
+[submodule "lead-management-platform"]
+	path = lead-management-platform
+	url = git@github.com:VectorEngineering/vector-lead-management.git
+[submodule "lead-sourcing-platform"]
+	path = lead-sourcing-platform
+	url = git@github.com:VectorEngineering/vector-workflow-manager.git
+[submodule "lead-scraper-service"]
+	path = lead-scraper-service
+	url = git@github.com:VectorEngineering/vector-leads-scraper.git
+[submodule "resumable-upload-service"]
+	path = resumable-upload-service
+	url = git@github.com:VectorEngineering/resumable-upload-service.git
+[submodule "lead-contract-management-platform"]
+	path = lead-contract-management-platform
+	url = https://github.com/plate-plus/potion.git
